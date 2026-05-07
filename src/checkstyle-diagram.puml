@@ -1,0 +1,14 @@
+@startuml
+
+class Main
+class Checker
+class TreeWalker
+class AbstractCheck
+class ConfigurationLoader
+
+Main --> Checker
+Checker --> TreeWalker
+TreeWalker --> AbstractCheck
+Checker --> ConfigurationLoader
+
+@enduml

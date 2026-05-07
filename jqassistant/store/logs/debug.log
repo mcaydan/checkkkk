@@ -1,0 +1,509 @@
+2026-03-21 21:28:34.653+0000 WARN  [o.n.k.i.JvmChecker] You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) 11 or OpenJDK(TM) 11.
+2026-03-21 21:28:34.654+0000 WARN  [o.n.k.i.JvmChecker] The max heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 6375342080 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.max_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xmx set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 21:28:34.655+0000 WARN  [o.n.k.i.JvmChecker] The initial heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 398458880 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.initial_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xms set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 21:39:47.719+0000 WARN  [o.n.k.i.JvmChecker] You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) 11 or OpenJDK(TM) 11.
+2026-03-21 21:39:47.721+0000 WARN  [o.n.k.i.JvmChecker] The max heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 6375342080 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.max_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xmx set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 21:39:47.721+0000 WARN  [o.n.k.i.JvmChecker] The initial heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 398458880 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.initial_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xms set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 21:40:25.030+0000 WARN  [o.n.k.i.JvmChecker] You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) 11 or OpenJDK(TM) 11.
+2026-03-21 21:40:25.031+0000 WARN  [o.n.k.i.JvmChecker] The max heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 6375342080 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.max_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xmx set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 21:40:25.031+0000 WARN  [o.n.k.i.JvmChecker] The initial heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 398458880 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.initial_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xms set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 21:49:07.649+0000 WARN  [o.n.k.i.JvmChecker] The max heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 6375342080 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.max_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xmx set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 21:49:07.651+0000 WARN  [o.n.k.i.JvmChecker] The initial heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 398458880 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.initial_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xms set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 21:49:07.694+0000 WARN  [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 9561583616 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2026-03-21 21:49:08.090+0000 INFO  [o.n.d.i.DefaultIdentityModule] Generated new ServerId: ServerId{7e6b4b7e} (7e6b4b7e-99a6-4ce2-ae57-c2bedec9c703)
+2026-03-21 21:49:08.091+0000 INFO  [o.n.d.i.DefaultIdentityModule] This instance is ServerId{7e6b4b7e} (7e6b4b7e-99a6-4ce2-ae57-c2bedec9c703)
+2026-03-21 21:49:08.105+0000 INFO  [o.n.g.f.EditionLocksFactories] Locking implementation 'forseti' selected.
+2026-03-21 21:49:09.361+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Creating 'DatabaseId{00000000[system]}'.
+2026-03-21 21:49:09.454+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Starting 'DatabaseId{00000000[system]}'.
+2026-03-21 21:49:09.518+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [system/00000000] Selected format 'RecordFormat:PageAlignedV4_3[AF4.3.0]' for the new store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system
+2026-03-21 21:49:10.050+0000 WARN  [o.n.k.i.t.l.c.CheckPointThreshold] [system/00000000] Could not load check point policy 'dbms.checkpoint=perıodıc'. Using default policy instead.
+java.util.NoSuchElementException: Could not find service provider org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy[perıodıc]
+	at org.neo4j.service.Services.lambda$loadOrFail$3(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at org.neo4j.service.Services.loadOrFail(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.service.Services.loadOrFail(Services.java:127) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy.loadPolicy(CheckPointThresholdPolicy.java:52) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThreshold.createThreshold(CheckPointThreshold.java:90) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.buildTransactionLogs(Database.java:756) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.start(Database.java:470) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.startDatabase(AbstractDatabaseManager.java:234) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.startDatabase(DefaultDatabaseManager.java:145) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.startDatabase(DefaultDatabaseManager.java:34) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.forEachDatabase(AbstractDatabaseManager.java:212) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.startAllDatabases(AbstractDatabaseManager.java:118) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.start(AbstractDatabaseManager.java:112) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:442) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:110) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:218) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:180) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.newDatabaseManagementService(DatabaseManagementServiceBuilder.java:101) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.build(DatabaseManagementServiceBuilder.java:94) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at com.buschmais.xo.neo4j.embedded.api.FileDatabaseManagementServiceFactory.getDatabaseManagementService(FileDatabaseManagementServiceFactory.java:20) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.AbstractEmbeddedDatabaseManagementServiceFactory.createDatabaseManagementService(AbstractEmbeddedDatabaseManagementServiceFactory.java:44) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.EmbeddedNeo4jXOProvider.createDatastore(EmbeddedNeo4jXOProvider.java:52) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.impl.XOManagerFactoryImpl.<init>(XOManagerFactoryImpl.java:48) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.impl.bootstrap.XOBootstrapServiceImpl.createXOManagerFactory(XOBootstrapServiceImpl.java:41) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.api.bootstrap.XO.createXOManagerFactory(XO.java:50) [com.buschmais.xo-xo.api-2.6.6.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.getXOManagerFactory(AbstractGraphStore.java:308) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.start(AbstractGraphStore.java:74) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.AbstractStoreTask.withStore(AbstractStoreTask.java:49) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.ScanTask.run(ScanTask.java:53) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTask(Main.java:326) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTasks(Main.java:284) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.interpretCommandLine(Main.java:204) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.run(Main.java:83) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.main(Main.java:64) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+2026-03-21 21:49:10.119+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] Requirement `Database unavailable` makes database system unavailable.
+2026-03-21 21:49:10.120+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] DatabaseId{00000000[system]} is unavailable.
+2026-03-21 21:49:10.223+0000 WARN  [o.n.k.i.s.MetaDataStore] [system/00000000] Missing counts store, rebuilding it.
+2026-03-21 21:49:10.227+0000 WARN  [o.n.k.i.s.MetaDataStore] [system/00000000] Counts store rebuild completed.
+2026-03-21 21:49:10.228+0000 WARN  [o.n.i.c.DegreesRebuildFromStore] [system/00000000] Missing relationship degrees store, rebuilding it.
+2026-03-21 21:49:10.314+0000 WARN  [o.n.i.c.DegreesRebuildFromStore] [system/00000000] Relationship degrees store rebuild completed.
+2026-03-21 21:49:10.327+0000 INFO  [o.n.k.d.Database] [system/00000000] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\system\neostore.transaction.db.0] at version=0
+2026-03-21 21:49:10.335+0000 INFO  [o.n.k.d.Database] [system/00000000] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\system\checkpoint.0] at version=0
+2026-03-21 21:49:10.371+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] Fulfilling of requirement 'Database unavailable' makes database system available.
+2026-03-21 21:49:10.371+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] DatabaseId{00000000[system]} is ready.
+2026-03-21 21:49:10.372+0000 INFO  [o.n.m.DatabaseHealth] [system/00000000] Database health set to OK
+2026-03-21 21:49:10.638+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index population started: [Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' )]
+2026-03-21 21:49:10.713+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Completed node store scan. Flushing all pending updates.
+MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@173da924], concurrentUpdateQueue = 0}
+2026-03-21 21:49:10.725+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index creation finished for index [Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' )].
+2026-03-21 21:49:10.733+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] TIME/PHASE Final: SCAN[totalTime=0ns], FLIP[totalTime=17ms]
+2026-03-21 21:49:10.734+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index population started: [Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' )]
+2026-03-21 21:49:10.781+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Completed relationship store scan. Flushing all pending updates.
+MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@7a458c73], concurrentUpdateQueue = 0}
+2026-03-21 21:49:10.792+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index creation finished for index [Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' )].
+2026-03-21 21:49:10.796+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] TIME/PHASE Final: SCAN[totalTime=0ns], FLIP[totalTime=15ms]
+2026-03-21 21:49:10.826+0000 INFO  [o.n.k.i.a.s.ConstraintIndexCreator] [system/00000000] Starting constraint creation: Constraint( name='constraint_375161cd', type='UNIQUENESS', schema=(:DatabaseName {name}) ).
+2026-03-21 21:49:10.872+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index population started: [Index( id=3, name='constraint_375161cd', type='UNIQUE BTREE', schema=(:DatabaseName {name}), indexProvider='native-btree-1.0' )]
+2026-03-21 21:49:10.936+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Completed node store scan. Flushing all pending updates.
+MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@34714012], concurrentUpdateQueue = 0}
+2026-03-21 21:49:10.960+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index creation finished for index [Index( id=3, name='constraint_375161cd', type='UNIQUE BTREE', schema=(:DatabaseName {name}), indexProvider='native-btree-1.0' )].
+2026-03-21 21:49:10.965+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] TIME/PHASE Final: SCAN[totalTime=0ns], MERGE[totalTime=0ns], BUILD[totalTime=1ms], APPLY_EXTERNAL[totalTime=10ms], FLIP[totalTime=18ms]
+2026-03-21 21:49:10.966+0000 INFO  [o.n.k.i.a.s.ConstraintIndexCreator] [system/00000000] Constraint Constraint( name='constraint_375161cd', type='UNIQUENESS', schema=(:DatabaseName {name}) ) populated, starting verification.
+2026-03-21 21:49:10.967+0000 INFO  [o.n.k.i.a.s.ConstraintIndexCreator] [system/00000000] Constraint Constraint( name='constraint_375161cd', type='UNIQUENESS', schema=(:DatabaseName {name}) ) verified.
+2026-03-21 21:49:10.973+0000 INFO  [o.n.k.i.a.s.ConstraintIndexCreator] [system/00000000] Starting constraint creation: Constraint( name='constraint_42eb0b7c', type='UNIQUENESS', schema=(:Database {name}) ).
+2026-03-21 21:49:10.977+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index population started: [Index( id=4, name='constraint_42eb0b7c', type='UNIQUE BTREE', schema=(:Database {name}), indexProvider='native-btree-1.0' )]
+2026-03-21 21:49:10.998+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Completed node store scan. Flushing all pending updates.
+MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@4be6531a], concurrentUpdateQueue = 0}
+2026-03-21 21:49:11.014+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index creation finished for index [Index( id=4, name='constraint_42eb0b7c', type='UNIQUE BTREE', schema=(:Database {name}), indexProvider='native-btree-1.0' )].
+2026-03-21 21:49:11.018+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] TIME/PHASE Final: SCAN[totalTime=0ns], MERGE[totalTime=0ns], BUILD[totalTime=0ns], APPLY_EXTERNAL[totalTime=6ms], FLIP[totalTime=14ms]
+2026-03-21 21:49:11.026+0000 INFO  [o.n.k.i.a.s.ConstraintIndexCreator] [system/00000000] Constraint Constraint( name='constraint_42eb0b7c', type='UNIQUENESS', schema=(:Database {name}) ) populated, starting verification.
+2026-03-21 21:49:11.026+0000 INFO  [o.n.k.i.a.s.ConstraintIndexCreator] [system/00000000] Constraint Constraint( name='constraint_42eb0b7c', type='UNIQUENESS', schema=(:Database {name}) ) verified.
+2026-03-21 21:49:11.041+0000 INFO  [o.n.k.i.a.i.IndexingService] [system/00000000] Constraint Index( id=3, name='constraint_375161cd', type='UNIQUE BTREE', schema=(:Label[0] {PropertyKey[10]}), indexProvider='native-btree-1.0' ) is ONLINE.
+2026-03-21 21:49:11.041+0000 INFO  [o.n.k.i.a.i.IndexingService] [system/00000000] Constraint Index( id=4, name='constraint_42eb0b7c', type='UNIQUE BTREE', schema=(:Label[1] {PropertyKey[10]}), indexProvider='native-btree-1.0' ) is ONLINE.
+2026-03-21 21:49:11.198+0000 INFO  [o.n.k.i.a.s.ConstraintIndexCreator] [system/00000000] Starting constraint creation: Constraint( name='constraint_e31771aa', type='UNIQUENESS', schema=(:User {name}) ).
+2026-03-21 21:49:11.204+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index population started: [Index( id=7, name='constraint_e31771aa', type='UNIQUE BTREE', schema=(:User {name}), indexProvider='native-btree-1.0' )]
+2026-03-21 21:49:11.245+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Completed node store scan. Flushing all pending updates.
+MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@4bf93a6d], concurrentUpdateQueue = 0}
+2026-03-21 21:49:11.263+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index creation finished for index [Index( id=7, name='constraint_e31771aa', type='UNIQUE BTREE', schema=(:User {name}), indexProvider='native-btree-1.0' )].
+2026-03-21 21:49:11.268+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] TIME/PHASE Final: SCAN[totalTime=0ns], MERGE[totalTime=0ns], BUILD[totalTime=0ns], APPLY_EXTERNAL[totalTime=7ms], FLIP[totalTime=16ms]
+2026-03-21 21:49:11.268+0000 INFO  [o.n.k.i.a.s.ConstraintIndexCreator] [system/00000000] Constraint Constraint( name='constraint_e31771aa', type='UNIQUENESS', schema=(:User {name}) ) populated, starting verification.
+2026-03-21 21:49:11.268+0000 INFO  [o.n.k.i.a.s.ConstraintIndexCreator] [system/00000000] Constraint Constraint( name='constraint_e31771aa', type='UNIQUENESS', schema=(:User {name}) ) verified.
+2026-03-21 21:49:11.272+0000 INFO  [o.n.k.i.a.i.IndexingService] [system/00000000] Constraint Index( id=7, name='constraint_e31771aa', type='UNIQUE BTREE', schema=(:Label[3] {PropertyKey[10]}), indexProvider='native-btree-1.0' ) is ONLINE.
+2026-03-21 21:49:11.274+0000 INFO  [o.n.s.s.s.UserSecurityGraphComponent] Initializing system graph model for component 'security-users' with version -1 and status UNINITIALIZED
+2026-03-21 21:49:11.282+0000 INFO  [o.n.s.s.s.UserSecurityGraphComponent] Setting up initial user from defaults: neo4j
+2026-03-21 21:49:11.282+0000 INFO  [o.n.s.s.s.UserSecurityGraphComponent] Creating new user 'neo4j' (passwordChangeRequired=true, suspended=false)
+2026-03-21 21:49:11.300+0000 INFO  [o.n.s.s.s.UserSecurityGraphComponent] Setting version for 'security-users' to 3
+2026-03-21 21:49:11.304+0000 INFO  [o.n.s.s.s.UserSecurityGraphComponent] After initialization of system graph model component 'security-users' have version 3 and status CURRENT
+2026-03-21 21:49:11.311+0000 INFO  [o.n.s.s.s.UserSecurityGraphComponent] Performing postInitialization step for component 'security-users' with version 3 and status CURRENT
+2026-03-21 21:49:11.317+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Creating 'DatabaseId{07317455[neo4j]}'.
+2026-03-21 21:49:11.328+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Starting 'DatabaseId{07317455[neo4j]}'.
+2026-03-21 21:49:11.330+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [neo4j/07317455] Selected format 'RecordFormat:PageAlignedV4_3[AF4.3.0]' for the new store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j
+2026-03-21 21:49:11.602+0000 WARN  [o.n.k.i.t.l.c.CheckPointThreshold] [neo4j/07317455] Could not load check point policy 'dbms.checkpoint=perıodıc'. Using default policy instead.
+java.util.NoSuchElementException: Could not find service provider org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy[perıodıc]
+	at org.neo4j.service.Services.lambda$loadOrFail$3(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at org.neo4j.service.Services.loadOrFail(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.service.Services.loadOrFail(Services.java:127) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy.loadPolicy(CheckPointThresholdPolicy.java:52) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThreshold.createThreshold(CheckPointThreshold.java:90) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.buildTransactionLogs(Database.java:756) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.start(Database.java:470) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.startDatabase(AbstractDatabaseManager.java:234) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.startDatabase(DefaultDatabaseManager.java:145) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.initialiseDefaultDatabase(DefaultDatabaseManager.java:56) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseInitializer.start0(DefaultDatabaseInitializer.java:39) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.SafeLifecycle.transition(SafeLifecycle.java:124) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.SafeLifecycle.start(SafeLifecycle.java:138) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:442) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:110) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:218) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:180) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.newDatabaseManagementService(DatabaseManagementServiceBuilder.java:101) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.build(DatabaseManagementServiceBuilder.java:94) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at com.buschmais.xo.neo4j.embedded.api.FileDatabaseManagementServiceFactory.getDatabaseManagementService(FileDatabaseManagementServiceFactory.java:20) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.AbstractEmbeddedDatabaseManagementServiceFactory.createDatabaseManagementService(AbstractEmbeddedDatabaseManagementServiceFactory.java:44) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.EmbeddedNeo4jXOProvider.createDatastore(EmbeddedNeo4jXOProvider.java:52) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.impl.XOManagerFactoryImpl.<init>(XOManagerFactoryImpl.java:48) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.impl.bootstrap.XOBootstrapServiceImpl.createXOManagerFactory(XOBootstrapServiceImpl.java:41) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.api.bootstrap.XO.createXOManagerFactory(XO.java:50) [com.buschmais.xo-xo.api-2.6.6.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.getXOManagerFactory(AbstractGraphStore.java:308) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.start(AbstractGraphStore.java:74) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.AbstractStoreTask.withStore(AbstractStoreTask.java:49) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.ScanTask.run(ScanTask.java:53) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTask(Main.java:326) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTasks(Main.java:284) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.interpretCommandLine(Main.java:204) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.run(Main.java:83) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.main(Main.java:64) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+2026-03-21 21:49:11.614+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] Requirement `Database unavailable` makes database neo4j unavailable.
+2026-03-21 21:49:11.614+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] DatabaseId{07317455[neo4j]} is unavailable.
+2026-03-21 21:49:11.705+0000 WARN  [o.n.k.i.s.MetaDataStore] [neo4j/07317455] Missing counts store, rebuilding it.
+2026-03-21 21:49:11.705+0000 WARN  [o.n.k.i.s.MetaDataStore] [neo4j/07317455] Counts store rebuild completed.
+2026-03-21 21:49:11.705+0000 WARN  [o.n.i.c.DegreesRebuildFromStore] [neo4j/07317455] Missing relationship degrees store, rebuilding it.
+2026-03-21 21:49:11.770+0000 WARN  [o.n.i.c.DegreesRebuildFromStore] [neo4j/07317455] Relationship degrees store rebuild completed.
+2026-03-21 21:49:11.771+0000 INFO  [o.n.k.d.Database] [neo4j/07317455] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\neo4j\neostore.transaction.db.0] at version=0
+2026-03-21 21:49:11.773+0000 INFO  [o.n.k.d.Database] [neo4j/07317455] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\neo4j\checkpoint.0] at version=0
+2026-03-21 21:49:11.773+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] Fulfilling of requirement 'Database unavailable' makes database neo4j available.
+2026-03-21 21:49:11.773+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] DatabaseId{07317455[neo4j]} is ready.
+2026-03-21 21:49:11.773+0000 INFO  [o.n.m.DatabaseHealth] [neo4j/07317455] Database health set to OK
+2026-03-21 21:49:11.781+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Index population started: [Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' )]
+2026-03-21 21:49:11.816+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Completed node store scan. Flushing all pending updates.
+MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@2acfd27b], concurrentUpdateQueue = 0}
+2026-03-21 21:49:11.829+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Index creation finished for index [Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' )].
+2026-03-21 21:49:11.832+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] TIME/PHASE Final: SCAN[totalTime=0ns], FLIP[totalTime=16ms]
+2026-03-21 21:49:11.832+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Index population started: [Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' )]
+2026-03-21 21:49:11.878+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Completed relationship store scan. Flushing all pending updates.
+MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@7d2d5625], concurrentUpdateQueue = 0}
+2026-03-21 21:49:11.890+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Index creation finished for index [Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' )].
+2026-03-21 21:49:11.893+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] TIME/PHASE Final: SCAN[totalTime=0ns], FLIP[totalTime=15ms]
+2026-03-21 21:49:11.897+0000 INFO  [o.n.g.f.DatabaseManagementServiceFactory] id: E2C8C4A216F9ED999BE55405477DC9559048C5E52D425FC987A11061330F259A
+2026-03-21 21:49:11.898+0000 INFO  [o.n.g.f.DatabaseManagementServiceFactory] name: system
+2026-03-21 21:49:11.898+0000 INFO  [o.n.g.f.DatabaseManagementServiceFactory] creationDate: 2026-03-21T21:49:09.979Z
+2026-03-21 21:52:07.766+0000 WARN  [o.n.k.i.JvmChecker] The max heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 6375342080 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.max_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xmx set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 21:52:07.768+0000 WARN  [o.n.k.i.JvmChecker] The initial heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 398458880 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.initial_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xms set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 21:52:07.812+0000 WARN  [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 9561583616 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2026-03-21 21:52:08.177+0000 INFO  [o.n.d.i.DefaultIdentityModule] Found ServerId on disk: ServerId{7e6b4b7e} (7e6b4b7e-99a6-4ce2-ae57-c2bedec9c703)
+2026-03-21 21:52:08.178+0000 INFO  [o.n.d.i.DefaultIdentityModule] This instance is ServerId{7e6b4b7e} (7e6b4b7e-99a6-4ce2-ae57-c2bedec9c703)
+2026-03-21 21:52:08.184+0000 INFO  [o.n.g.f.EditionLocksFactories] Locking implementation 'forseti' selected.
+2026-03-21 21:52:09.295+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Creating 'DatabaseId{00000000[system]}'.
+2026-03-21 21:52:09.397+0000 INFO  [o.n.b.BoltServer] Bolt server loaded
+2026-03-21 21:52:09.454+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Starting 'DatabaseId{00000000[system]}'.
+2026-03-21 21:52:09.609+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [system/00000000] Selected RecordFormat:PageAlignedV4_3[AF4.3.0] record format from store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system
+2026-03-21 21:52:09.611+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [system/00000000] Selected format 'RecordFormat:PageAlignedV4_3[AF4.3.0]' for existing store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system with format 'RecordFormat:PageAlignedV4_3[AF4.3.0]'
+2026-03-21 21:52:09.698+0000 INFO  [o.n.k.i.t.l.f.c.CheckpointLogFile] [system/00000000] Scanning log file with version 0 for checkpoint entries
+2026-03-21 21:52:09.711+0000 INFO  [o.n.k.i.t.l.f.c.InlinedLogTailScanner] [system/00000000] Scanning log file with version 0 for checkpoint entries
+2026-03-21 21:52:09.761+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [system/00000000] Selected RecordFormat:PageAlignedV4_3[AF4.3.0] record format from store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system
+2026-03-21 21:52:09.761+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [system/00000000] Format not configured for store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system. Selected format from the store files: RecordFormat:PageAlignedV4_3[AF4.3.0]
+2026-03-21 21:52:09.966+0000 INFO  [o.n.k.d.Database] [system/00000000] No check point found in transaction log
+2026-03-21 21:52:09.972+0000 INFO  [o.n.k.d.Database] [system/00000000] Recovery required from position LogPosition{logVersion=0, byteOffset=64}
+2026-03-21 21:52:09.999+0000 INFO  [o.n.k.r.Recovery] [system/00000000]   10% completed
+2026-03-21 21:52:10.000+0000 INFO  [o.n.k.r.Recovery] [system/00000000]   20% completed
+2026-03-21 21:52:10.001+0000 INFO  [o.n.k.r.Recovery] [system/00000000]   30% completed
+2026-03-21 21:52:10.002+0000 INFO  [o.n.k.r.Recovery] [system/00000000]   40% completed
+2026-03-21 21:52:10.004+0000 INFO  [o.n.k.r.Recovery] [system/00000000]   50% completed
+2026-03-21 21:52:10.046+0000 INFO  [o.n.k.r.Recovery] [system/00000000]   60% completed
+2026-03-21 21:52:10.049+0000 INFO  [o.n.k.r.Recovery] [system/00000000]   70% completed
+2026-03-21 21:52:10.074+0000 INFO  [o.n.k.r.Recovery] [system/00000000]   80% completed
+2026-03-21 21:52:10.078+0000 INFO  [o.n.k.r.Recovery] [system/00000000]   90% completed
+2026-03-21 21:52:10.080+0000 INFO  [o.n.k.r.Recovery] [system/00000000]   100% completed
+2026-03-21 21:52:10.083+0000 INFO  [o.n.k.d.Database] [system/00000000] Recovery completed. 35 transactions, first:2, last:36 recovered, time spent: 115ms
+2026-03-21 21:52:10.088+0000 WARN  [o.n.k.i.s.MetaDataStore] [system/00000000] Missing counts store, rebuilding it.
+2026-03-21 21:52:10.269+0000 WARN  [o.n.k.i.s.MetaDataStore] [system/00000000] Counts store rebuild completed.
+2026-03-21 21:52:10.270+0000 WARN  [o.n.i.c.DegreesRebuildFromStore] [system/00000000] Missing relationship degrees store, rebuilding it.
+2026-03-21 21:52:10.348+0000 WARN  [o.n.i.c.DegreesRebuildFromStore] [system/00000000] Relationship degrees store rebuild completed.
+2026-03-21 21:52:10.360+0000 INFO  [o.n.k.i.a.i.IndexingService] [system/00000000] IndexingService.start: indexes not specifically mentioned above are POPULATING
+2026-03-21 21:52:10.385+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index population started: [Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' )]
+2026-03-21 21:52:10.385+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index population started: [Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' )]
+2026-03-21 21:52:10.415+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index population started: [Index( id=3, name='constraint_375161cd', type='UNIQUE BTREE', schema=(:DatabaseName {name}), indexProvider='native-btree-1.0' )]
+2026-03-21 21:52:10.420+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [system/00000000] Checkpoint triggered by "Recovery completed." @ txId: 36 checkpoint started...
+2026-03-21 21:52:10.457+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index population started: [Index( id=4, name='constraint_42eb0b7c', type='UNIQUE BTREE', schema=(:Database {name}), indexProvider='native-btree-1.0' )]
+2026-03-21 21:52:10.474+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index population started: [Index( id=7, name='constraint_e31771aa', type='UNIQUE BTREE', schema=(:User {name}), indexProvider='native-btree-1.0' )]
+2026-03-21 21:52:10.496+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Completed relationship store scan. Flushing all pending updates.
+MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@9421b61], concurrentUpdateQueue = 0}
+2026-03-21 21:52:10.514+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index creation finished for index [Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' )].
+2026-03-21 21:52:10.524+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] TIME/PHASE Final: SCAN[totalTime=1ms], FLIP[totalTime=26ms]
+2026-03-21 21:52:10.550+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Completed node store scan. Flushing all pending updates.
+MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@3fed6db7, org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@7f6e8c8c, org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@6d992158, org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@390bc495], concurrentUpdateQueue = 0}
+2026-03-21 21:52:10.570+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index creation finished for index [Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' )].
+2026-03-21 21:52:10.625+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index creation finished for index [Index( id=3, name='constraint_375161cd', type='UNIQUE BTREE', schema=(:DatabaseName {name}), indexProvider='native-btree-1.0' )].
+2026-03-21 21:52:10.670+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index creation finished for index [Index( id=4, name='constraint_42eb0b7c', type='UNIQUE BTREE', schema=(:Database {name}), indexProvider='native-btree-1.0' )].
+2026-03-21 21:52:10.703+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [system/00000000] Checkpoint triggered by "Recovery completed." @ txId: 36 checkpoint completed in 283ms
+2026-03-21 21:52:10.710+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] Index creation finished for index [Index( id=7, name='constraint_e31771aa', type='UNIQUE BTREE', schema=(:User {name}), indexProvider='native-btree-1.0' )].
+2026-03-21 21:52:10.715+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [system/00000000] TIME/PHASE Final: SCAN[totalTime=25ms], MERGE[totalTime=19ms, avgTime=6ms, minTime=0ns, maxTime=11ms, nbrOfReports=3], BUILD[totalTime=9ms, avgTime=3ms, minTime=0ns, maxTime=6ms, nbrOfReports=3], APPLY_EXTERNAL[totalTime=31ms, avgTime=10ms, minTime=0ns, maxTime=12ms, nbrOfReports=3], FLIP[totalTime=105ms, avgTime=26ms, minTime=0ns, maxTime=29ms, nbrOfReports=4]
+2026-03-21 21:52:10.851+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [system/00000000] Selected RecordFormat:PageAlignedV4_3[AF4.3.0] record format from store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system
+2026-03-21 21:52:10.851+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [system/00000000] Format not configured for store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system. Selected format from the store files: RecordFormat:PageAlignedV4_3[AF4.3.0]
+2026-03-21 21:52:10.959+0000 WARN  [o.n.k.i.t.l.c.CheckPointThreshold] [system/00000000] Could not load check point policy 'dbms.checkpoint=perıodıc'. Using default policy instead.
+java.util.NoSuchElementException: Could not find service provider org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy[perıodıc]
+	at org.neo4j.service.Services.lambda$loadOrFail$3(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at org.neo4j.service.Services.loadOrFail(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.service.Services.loadOrFail(Services.java:127) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy.loadPolicy(CheckPointThresholdPolicy.java:52) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThreshold.createThreshold(CheckPointThreshold.java:90) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.buildTransactionLogs(Database.java:756) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.start(Database.java:470) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.startDatabase(AbstractDatabaseManager.java:234) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.startDatabase(DefaultDatabaseManager.java:145) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.startDatabase(DefaultDatabaseManager.java:34) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.forEachDatabase(AbstractDatabaseManager.java:212) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.startAllDatabases(AbstractDatabaseManager.java:118) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.start(AbstractDatabaseManager.java:112) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:442) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:110) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:218) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:180) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.newDatabaseManagementService(DatabaseManagementServiceBuilder.java:101) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.build(DatabaseManagementServiceBuilder.java:94) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at com.buschmais.xo.neo4j.embedded.api.FileDatabaseManagementServiceFactory.getDatabaseManagementService(FileDatabaseManagementServiceFactory.java:20) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.AbstractEmbeddedDatabaseManagementServiceFactory.createDatabaseManagementService(AbstractEmbeddedDatabaseManagementServiceFactory.java:44) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.EmbeddedNeo4jXOProvider.createDatastore(EmbeddedNeo4jXOProvider.java:52) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.impl.XOManagerFactoryImpl.<init>(XOManagerFactoryImpl.java:48) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.impl.bootstrap.XOBootstrapServiceImpl.createXOManagerFactory(XOBootstrapServiceImpl.java:41) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.api.bootstrap.XO.createXOManagerFactory(XO.java:50) [com.buschmais.xo-xo.api-2.6.6.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.getXOManagerFactory(AbstractGraphStore.java:308) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.start(AbstractGraphStore.java:74) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.AbstractStoreTask.withStore(AbstractStoreTask.java:49) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.ServerTask.run(ServerTask.java:30) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTask(Main.java:326) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTasks(Main.java:284) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.interpretCommandLine(Main.java:204) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.run(Main.java:83) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.main(Main.java:64) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+2026-03-21 21:52:11.028+0000 INFO  [o.n.k.i.a.i.IndexingService] [system/00000000] IndexingService.init: indexes not specifically mentioned above are ONLINE
+2026-03-21 21:52:11.031+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] Requirement `Database unavailable` makes database system unavailable.
+2026-03-21 21:52:11.032+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] DatabaseId{00000000[system]} is unavailable.
+2026-03-21 21:52:11.038+0000 INFO  [o.n.k.d.Database] [system/00000000] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\system\neostore.transaction.db.0] at version=0
+2026-03-21 21:52:11.040+0000 INFO  [o.n.k.d.Database] [system/00000000] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\system\checkpoint.0] at version=0
+2026-03-21 21:52:11.040+0000 INFO  [o.n.k.i.a.i.IndexingService] [system/00000000] IndexingService.start: indexes not specifically mentioned above are ONLINE
+2026-03-21 21:52:11.047+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] Fulfilling of requirement 'Database unavailable' makes database system available.
+2026-03-21 21:52:11.047+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] DatabaseId{00000000[system]} is ready.
+2026-03-21 21:52:11.047+0000 INFO  [o.n.m.DatabaseHealth] [system/00000000] Database health set to OK
+2026-03-21 21:52:11.129+0000 INFO  [o.n.s.s.s.UserSecurityGraphComponent] Performing postInitialization step for component 'security-users' with version 3 and status CURRENT
+2026-03-21 21:52:11.129+0000 INFO  [o.n.s.s.s.UserSecurityGraphComponent] Updating the initial password in component 'security-users'
+2026-03-21 21:52:11.138+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Creating 'DatabaseId{07317455[neo4j]}'.
+2026-03-21 21:52:11.144+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Starting 'DatabaseId{07317455[neo4j]}'.
+2026-03-21 21:52:11.151+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [neo4j/07317455] Selected RecordFormat:PageAlignedV4_3[AF4.3.0] record format from store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j
+2026-03-21 21:52:11.153+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [neo4j/07317455] Selected format 'RecordFormat:PageAlignedV4_3[AF4.3.0]' for existing store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j with format 'RecordFormat:PageAlignedV4_3[AF4.3.0]'
+2026-03-21 21:52:11.186+0000 INFO  [o.n.k.i.t.l.f.c.CheckpointLogFile] [neo4j/07317455] Scanning log file with version 0 for checkpoint entries
+2026-03-21 21:52:11.187+0000 INFO  [o.n.k.i.t.l.f.c.InlinedLogTailScanner] [neo4j/07317455] Scanning log file with version 0 for checkpoint entries
+2026-03-21 21:52:11.208+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [neo4j/07317455] Selected RecordFormat:PageAlignedV4_3[AF4.3.0] record format from store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j
+2026-03-21 21:52:11.208+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [neo4j/07317455] Format not configured for store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j. Selected format from the store files: RecordFormat:PageAlignedV4_3[AF4.3.0]
+2026-03-21 21:52:11.308+0000 INFO  [o.n.k.d.Database] [neo4j/07317455] No check point found in transaction log
+2026-03-21 21:52:11.308+0000 INFO  [o.n.k.d.Database] [neo4j/07317455] Recovery required from position LogPosition{logVersion=0, byteOffset=64}
+2026-03-21 21:52:11.312+0000 INFO  [o.n.k.r.Recovery] [neo4j/07317455]   10% completed
+2026-03-21 21:52:11.313+0000 INFO  [o.n.k.r.Recovery] [neo4j/07317455]   20% completed
+2026-03-21 21:52:11.313+0000 INFO  [o.n.k.r.Recovery] [neo4j/07317455]   30% completed
+2026-03-21 21:52:11.313+0000 INFO  [o.n.k.r.Recovery] [neo4j/07317455]   40% completed
+2026-03-21 21:52:11.313+0000 INFO  [o.n.k.r.Recovery] [neo4j/07317455]   50% completed
+2026-03-21 21:52:11.319+0000 INFO  [o.n.k.r.Recovery] [neo4j/07317455]   60% completed
+2026-03-21 21:52:11.319+0000 INFO  [o.n.k.r.Recovery] [neo4j/07317455]   70% completed
+2026-03-21 21:52:11.320+0000 INFO  [o.n.k.r.Recovery] [neo4j/07317455]   80% completed
+2026-03-21 21:52:11.320+0000 INFO  [o.n.k.r.Recovery] [neo4j/07317455]   90% completed
+2026-03-21 21:52:11.320+0000 INFO  [o.n.k.r.Recovery] [neo4j/07317455]   100% completed
+2026-03-21 21:52:11.321+0000 INFO  [o.n.k.d.Database] [neo4j/07317455] Recovery completed. 2 transactions, first:2, last:3 recovered, time spent: 12ms
+2026-03-21 21:52:11.321+0000 WARN  [o.n.k.i.s.MetaDataStore] [neo4j/07317455] Missing counts store, rebuilding it.
+2026-03-21 21:52:11.321+0000 WARN  [o.n.k.i.s.MetaDataStore] [neo4j/07317455] Counts store rebuild completed.
+2026-03-21 21:52:11.322+0000 WARN  [o.n.i.c.DegreesRebuildFromStore] [neo4j/07317455] Missing relationship degrees store, rebuilding it.
+2026-03-21 21:52:11.375+0000 WARN  [o.n.i.c.DegreesRebuildFromStore] [neo4j/07317455] Relationship degrees store rebuild completed.
+2026-03-21 21:52:11.379+0000 INFO  [o.n.k.i.a.i.IndexingService] [neo4j/07317455] IndexingService.start: indexes not specifically mentioned above are POPULATING
+2026-03-21 21:52:11.379+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Index population started: [Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' )]
+2026-03-21 21:52:11.421+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Completed node store scan. Flushing all pending updates.
+MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@6e3552b0], concurrentUpdateQueue = 0}
+2026-03-21 21:52:11.432+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Index creation finished for index [Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' )].
+2026-03-21 21:52:11.436+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] TIME/PHASE Final: SCAN[totalTime=0ns], FLIP[totalTime=15ms]
+2026-03-21 21:52:11.436+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Index population started: [Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' )]
+2026-03-21 21:52:11.498+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Completed relationship store scan. Flushing all pending updates.
+MultipleIndexPopulator{activeTasks=0, batchedUpdatesFromScan = [org.neo4j.kernel.impl.api.index.MultipleIndexPopulator$IndexPopulation@4b37b01e], concurrentUpdateQueue = 0}
+2026-03-21 21:52:11.510+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] Index creation finished for index [Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' )].
+2026-03-21 21:52:11.513+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/07317455] TIME/PHASE Final: SCAN[totalTime=0ns], FLIP[totalTime=15ms]
+2026-03-21 21:52:11.513+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/07317455] Checkpoint triggered by "Recovery completed." @ txId: 3 checkpoint started...
+2026-03-21 21:52:11.692+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/07317455] Checkpoint triggered by "Recovery completed." @ txId: 3 checkpoint completed in 177ms
+2026-03-21 21:52:11.818+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [neo4j/07317455] Selected RecordFormat:PageAlignedV4_3[AF4.3.0] record format from store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j
+2026-03-21 21:52:11.818+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [neo4j/07317455] Format not configured for store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j. Selected format from the store files: RecordFormat:PageAlignedV4_3[AF4.3.0]
+2026-03-21 21:52:11.908+0000 WARN  [o.n.k.i.t.l.c.CheckPointThreshold] [neo4j/07317455] Could not load check point policy 'dbms.checkpoint=perıodıc'. Using default policy instead.
+java.util.NoSuchElementException: Could not find service provider org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy[perıodıc]
+	at org.neo4j.service.Services.lambda$loadOrFail$3(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at org.neo4j.service.Services.loadOrFail(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.service.Services.loadOrFail(Services.java:127) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy.loadPolicy(CheckPointThresholdPolicy.java:52) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThreshold.createThreshold(CheckPointThreshold.java:90) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.buildTransactionLogs(Database.java:756) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.start(Database.java:470) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.startDatabase(AbstractDatabaseManager.java:234) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.startDatabase(DefaultDatabaseManager.java:145) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.initialiseDefaultDatabase(DefaultDatabaseManager.java:56) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseInitializer.start0(DefaultDatabaseInitializer.java:39) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.SafeLifecycle.transition(SafeLifecycle.java:124) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.SafeLifecycle.start(SafeLifecycle.java:138) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:442) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:110) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:218) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:180) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.newDatabaseManagementService(DatabaseManagementServiceBuilder.java:101) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.build(DatabaseManagementServiceBuilder.java:94) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at com.buschmais.xo.neo4j.embedded.api.FileDatabaseManagementServiceFactory.getDatabaseManagementService(FileDatabaseManagementServiceFactory.java:20) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.AbstractEmbeddedDatabaseManagementServiceFactory.createDatabaseManagementService(AbstractEmbeddedDatabaseManagementServiceFactory.java:44) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.EmbeddedNeo4jXOProvider.createDatastore(EmbeddedNeo4jXOProvider.java:52) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.impl.XOManagerFactoryImpl.<init>(XOManagerFactoryImpl.java:48) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.impl.bootstrap.XOBootstrapServiceImpl.createXOManagerFactory(XOBootstrapServiceImpl.java:41) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.api.bootstrap.XO.createXOManagerFactory(XO.java:50) [com.buschmais.xo-xo.api-2.6.6.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.getXOManagerFactory(AbstractGraphStore.java:308) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.start(AbstractGraphStore.java:74) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.AbstractStoreTask.withStore(AbstractStoreTask.java:49) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.ServerTask.run(ServerTask.java:30) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTask(Main.java:326) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTasks(Main.java:284) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.interpretCommandLine(Main.java:204) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.run(Main.java:83) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.main(Main.java:64) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+2026-03-21 21:52:11.922+0000 INFO  [o.n.k.i.a.i.IndexingService] [neo4j/07317455] IndexingService.init: indexes not specifically mentioned above are ONLINE
+2026-03-21 21:52:11.926+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] Requirement `Database unavailable` makes database neo4j unavailable.
+2026-03-21 21:52:11.926+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] DatabaseId{07317455[neo4j]} is unavailable.
+2026-03-21 21:52:11.929+0000 INFO  [o.n.k.d.Database] [neo4j/07317455] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\neo4j\neostore.transaction.db.0] at version=0
+2026-03-21 21:52:11.930+0000 INFO  [o.n.k.d.Database] [neo4j/07317455] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\neo4j\checkpoint.0] at version=0
+2026-03-21 21:52:11.931+0000 INFO  [o.n.k.i.a.i.IndexingService] [neo4j/07317455] IndexingService.start: indexes not specifically mentioned above are ONLINE
+2026-03-21 21:52:11.931+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] Fulfilling of requirement 'Database unavailable' makes database neo4j available.
+2026-03-21 21:52:11.931+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] DatabaseId{07317455[neo4j]} is ready.
+2026-03-21 21:52:11.931+0000 INFO  [o.n.m.DatabaseHealth] [neo4j/07317455] Database health set to OK
+2026-03-21 21:52:12.241+0000 INFO  [o.n.b.BoltServer] Bolt enabled on 127.0.0.1:7687.
+2026-03-21 21:52:12.246+0000 INFO  [o.n.g.f.DatabaseManagementServiceFactory] id: E2C8C4A216F9ED999BE55405477DC9559048C5E52D425FC987A11061330F259A
+2026-03-21 21:52:12.247+0000 INFO  [o.n.g.f.DatabaseManagementServiceFactory] name: system
+2026-03-21 21:52:12.247+0000 INFO  [o.n.g.f.DatabaseManagementServiceFactory] creationDate: 2026-03-21T21:49:09.979Z
+2026-03-21 22:07:31.937+0000 WARN  [o.n.k.i.JvmChecker] The max heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 6375342080 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.max_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xmx set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 22:07:31.938+0000 WARN  [o.n.k.i.JvmChecker] The initial heap memory has not been configured. It is recommended that it is always explicitly configured, to ensure the system has a balanced configuration. Until then, a JVM computed heuristic of 398458880 bytes is used instead. If you are running neo4j server, you need to configure dbms.memory.heap.initial_size in neo4j.conf. If you are running neo4j embedded, you have to launch the JVM with -Xms set to a value. You can run neo4j-admin memrec for memory configuration suggestions.
+2026-03-21 22:07:31.987+0000 WARN  [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 9561583616 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2026-03-21 22:07:32.445+0000 INFO  [o.n.d.i.DefaultIdentityModule] Found ServerId on disk: ServerId{7e6b4b7e} (7e6b4b7e-99a6-4ce2-ae57-c2bedec9c703)
+2026-03-21 22:07:32.447+0000 INFO  [o.n.d.i.DefaultIdentityModule] This instance is ServerId{7e6b4b7e} (7e6b4b7e-99a6-4ce2-ae57-c2bedec9c703)
+2026-03-21 22:07:32.455+0000 INFO  [o.n.g.f.EditionLocksFactories] Locking implementation 'forseti' selected.
+2026-03-21 22:07:33.728+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Creating 'DatabaseId{00000000[system]}'.
+2026-03-21 22:07:33.813+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Starting 'DatabaseId{00000000[system]}'.
+2026-03-21 22:07:33.987+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [system/00000000] Selected RecordFormat:PageAlignedV4_3[AF4.3.0] record format from store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system
+2026-03-21 22:07:33.989+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [system/00000000] Selected format 'RecordFormat:PageAlignedV4_3[AF4.3.0]' for existing store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system with format 'RecordFormat:PageAlignedV4_3[AF4.3.0]'
+2026-03-21 22:07:34.085+0000 INFO  [o.n.k.i.t.l.f.c.CheckpointLogFile] [system/00000000] Scanning log file with version 0 for checkpoint entries
+2026-03-21 22:07:34.120+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [system/00000000] Selected RecordFormat:PageAlignedV4_3[AF4.3.0] record format from store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system
+2026-03-21 22:07:34.120+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [system/00000000] Format not configured for store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system. Selected format from the store files: RecordFormat:PageAlignedV4_3[AF4.3.0]
+2026-03-21 22:07:34.399+0000 WARN  [o.n.k.i.t.l.c.CheckPointThreshold] [system/00000000] Could not load check point policy 'dbms.checkpoint=perıodıc'. Using default policy instead.
+java.util.NoSuchElementException: Could not find service provider org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy[perıodıc]
+	at org.neo4j.service.Services.lambda$loadOrFail$3(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at org.neo4j.service.Services.loadOrFail(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.service.Services.loadOrFail(Services.java:127) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy.loadPolicy(CheckPointThresholdPolicy.java:52) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThreshold.createThreshold(CheckPointThreshold.java:90) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.buildTransactionLogs(Database.java:756) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.start(Database.java:470) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.startDatabase(AbstractDatabaseManager.java:234) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.startDatabase(DefaultDatabaseManager.java:145) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.startDatabase(DefaultDatabaseManager.java:34) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.forEachDatabase(AbstractDatabaseManager.java:212) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.startAllDatabases(AbstractDatabaseManager.java:118) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.start(AbstractDatabaseManager.java:112) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:442) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:110) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:218) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:180) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.newDatabaseManagementService(DatabaseManagementServiceBuilder.java:101) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.build(DatabaseManagementServiceBuilder.java:94) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at com.buschmais.xo.neo4j.embedded.api.FileDatabaseManagementServiceFactory.getDatabaseManagementService(FileDatabaseManagementServiceFactory.java:20) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.AbstractEmbeddedDatabaseManagementServiceFactory.createDatabaseManagementService(AbstractEmbeddedDatabaseManagementServiceFactory.java:44) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.EmbeddedNeo4jXOProvider.createDatastore(EmbeddedNeo4jXOProvider.java:52) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.impl.XOManagerFactoryImpl.<init>(XOManagerFactoryImpl.java:48) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.impl.bootstrap.XOBootstrapServiceImpl.createXOManagerFactory(XOBootstrapServiceImpl.java:41) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.api.bootstrap.XO.createXOManagerFactory(XO.java:50) [com.buschmais.xo-xo.api-2.6.6.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.getXOManagerFactory(AbstractGraphStore.java:308) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.start(AbstractGraphStore.java:74) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.AbstractStoreTask.withStore(AbstractStoreTask.java:49) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.ScanTask.run(ScanTask.java:53) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTask(Main.java:326) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTasks(Main.java:284) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.interpretCommandLine(Main.java:204) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.run(Main.java:83) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.main(Main.java:64) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+2026-03-21 22:07:34.502+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [system/00000000] Schema index cleanup job registered: descriptor=Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\neostore.labelscanstore.db
+2026-03-21 22:07:34.503+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [system/00000000] Schema index cleanup job started: descriptor=Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\neostore.labelscanstore.db
+2026-03-21 22:07:34.506+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [system/00000000] Schema index cleanup job finished: descriptor=Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\neostore.labelscanstore.db Number of pages visited: 3, Number of tree nodes: 2, Number of cleaned crashed pointers: 0, Time spent: 1ms
+2026-03-21 22:07:34.507+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [system/00000000] Schema index cleanup job closed: descriptor=Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\neostore.labelscanstore.db
+2026-03-21 22:07:34.522+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [system/00000000] Schema index cleanup job registered: descriptor=Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\neostore.relationshiptypescanstore.db
+2026-03-21 22:07:34.522+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [system/00000000] Schema index cleanup job started: descriptor=Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\neostore.relationshiptypescanstore.db
+2026-03-21 22:07:34.523+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [system/00000000] Schema index cleanup job finished: descriptor=Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\neostore.relationshiptypescanstore.db Number of pages visited: 3, Number of tree nodes: 2, Number of cleaned crashed pointers: 0, Time spent: 1ms
+2026-03-21 22:07:34.523+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [system/00000000] Schema index cleanup job closed: descriptor=Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\neostore.relationshiptypescanstore.db
+2026-03-21 22:07:34.550+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job registered: descriptor=Index( id=3, name='constraint_375161cd', type='UNIQUE BTREE', schema=(:Label[0] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=5 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\3\index-3
+2026-03-21 22:07:34.550+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job started: descriptor=Index( id=3, name='constraint_375161cd', type='UNIQUE BTREE', schema=(:Label[0] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=5 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\3\index-3
+2026-03-21 22:07:34.551+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job finished: descriptor=Index( id=3, name='constraint_375161cd', type='UNIQUE BTREE', schema=(:Label[0] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=5 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\3\index-3 Number of pages visited: 3, Number of tree nodes: 2, Number of cleaned crashed pointers: 0, Time spent: 1ms
+2026-03-21 22:07:34.552+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job closed: descriptor=Index( id=3, name='constraint_375161cd', type='UNIQUE BTREE', schema=(:Label[0] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=5 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\3\index-3
+2026-03-21 22:07:34.560+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job registered: descriptor=Index( id=4, name='constraint_42eb0b7c', type='UNIQUE BTREE', schema=(:Label[1] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=6 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\4\index-4
+2026-03-21 22:07:34.560+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job started: descriptor=Index( id=4, name='constraint_42eb0b7c', type='UNIQUE BTREE', schema=(:Label[1] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=6 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\4\index-4
+2026-03-21 22:07:34.562+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job finished: descriptor=Index( id=4, name='constraint_42eb0b7c', type='UNIQUE BTREE', schema=(:Label[1] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=6 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\4\index-4 Number of pages visited: 3, Number of tree nodes: 2, Number of cleaned crashed pointers: 0, Time spent: 1ms
+2026-03-21 22:07:34.562+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job closed: descriptor=Index( id=4, name='constraint_42eb0b7c', type='UNIQUE BTREE', schema=(:Label[1] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=6 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\4\index-4
+2026-03-21 22:07:34.569+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job registered: descriptor=Index( id=7, name='constraint_e31771aa', type='UNIQUE BTREE', schema=(:Label[3] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=8 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\7\index-7
+2026-03-21 22:07:34.570+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job started: descriptor=Index( id=7, name='constraint_e31771aa', type='UNIQUE BTREE', schema=(:Label[3] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=8 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\7\index-7
+2026-03-21 22:07:34.571+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job finished: descriptor=Index( id=7, name='constraint_e31771aa', type='UNIQUE BTREE', schema=(:Label[3] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=8 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\7\index-7 Number of pages visited: 3, Number of tree nodes: 2, Number of cleaned crashed pointers: 0, Time spent: 1ms
+2026-03-21 22:07:34.573+0000 INFO  [o.n.k.i.i.s.GenericNativeIndexProvider] [system/00000000] Schema index cleanup job closed: descriptor=Index( id=7, name='constraint_e31771aa', type='UNIQUE BTREE', schema=(:Label[3] {PropertyKey[10]}), indexProvider='native-btree-1.0', owningConstraint=8 ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\system\schema\index\native-btree-1.0\7\index-7
+2026-03-21 22:07:34.574+0000 INFO  [o.n.k.i.a.i.IndexingService] [system/00000000] IndexingService.init: indexes not specifically mentioned above are ONLINE
+2026-03-21 22:07:34.579+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] Requirement `Database unavailable` makes database system unavailable.
+2026-03-21 22:07:34.580+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] DatabaseId{00000000[system]} is unavailable.
+2026-03-21 22:07:34.594+0000 INFO  [o.n.k.d.Database] [system/00000000] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\system\neostore.transaction.db.0] at version=0
+2026-03-21 22:07:34.599+0000 INFO  [o.n.k.d.Database] [system/00000000] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\system\checkpoint.0] at version=0
+2026-03-21 22:07:34.602+0000 INFO  [o.n.k.i.a.i.IndexingService] [system/00000000] IndexingService.start: indexes not specifically mentioned above are ONLINE
+2026-03-21 22:07:34.660+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] Fulfilling of requirement 'Database unavailable' makes database system available.
+2026-03-21 22:07:34.660+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [system/00000000] DatabaseId{00000000[system]} is ready.
+2026-03-21 22:07:34.660+0000 INFO  [o.n.m.DatabaseHealth] [system/00000000] Database health set to OK
+2026-03-21 22:07:34.764+0000 INFO  [o.n.s.s.s.UserSecurityGraphComponent] Performing postInitialization step for component 'security-users' with version 3 and status CURRENT
+2026-03-21 22:07:34.764+0000 INFO  [o.n.s.s.s.UserSecurityGraphComponent] Updating the initial password in component 'security-users'
+2026-03-21 22:07:34.776+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Creating 'DatabaseId{07317455[neo4j]}'.
+2026-03-21 22:07:34.786+0000 INFO  [o.n.d.d.DefaultDatabaseManager] Starting 'DatabaseId{07317455[neo4j]}'.
+2026-03-21 22:07:34.794+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [neo4j/07317455] Selected RecordFormat:PageAlignedV4_3[AF4.3.0] record format from store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j
+2026-03-21 22:07:34.796+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [neo4j/07317455] Selected format 'RecordFormat:PageAlignedV4_3[AF4.3.0]' for existing store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j with format 'RecordFormat:PageAlignedV4_3[AF4.3.0]'
+2026-03-21 22:07:34.831+0000 INFO  [o.n.k.i.t.l.f.c.CheckpointLogFile] [neo4j/07317455] Scanning log file with version 0 for checkpoint entries
+2026-03-21 22:07:34.842+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [neo4j/07317455] Selected RecordFormat:PageAlignedV4_3[AF4.3.0] record format from store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j
+2026-03-21 22:07:34.843+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] [neo4j/07317455] Format not configured for store C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j. Selected format from the store files: RecordFormat:PageAlignedV4_3[AF4.3.0]
+2026-03-21 22:07:34.986+0000 WARN  [o.n.k.i.t.l.c.CheckPointThreshold] [neo4j/07317455] Could not load check point policy 'dbms.checkpoint=perıodıc'. Using default policy instead.
+java.util.NoSuchElementException: Could not find service provider org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy[perıodıc]
+	at org.neo4j.service.Services.lambda$loadOrFail$3(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at org.neo4j.service.Services.loadOrFail(Services.java:138) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.service.Services.loadOrFail(Services.java:127) ~[org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThresholdPolicy.loadPolicy(CheckPointThresholdPolicy.java:52) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.impl.transaction.log.checkpoint.CheckPointThreshold.createThreshold(CheckPointThreshold.java:90) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.buildTransactionLogs(Database.java:756) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.database.Database.start(Database.java:470) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.AbstractDatabaseManager.startDatabase(AbstractDatabaseManager.java:234) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.startDatabase(DefaultDatabaseManager.java:145) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseManager.initialiseDefaultDatabase(DefaultDatabaseManager.java:56) ~[org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.database.DefaultDatabaseInitializer.start0(DefaultDatabaseInitializer.java:39) ~[org.neo4j-neo4j-kernel-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.SafeLifecycle.transition(SafeLifecycle.java:124) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.SafeLifecycle.start(SafeLifecycle.java:138) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:442) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:110) [org.neo4j-neo4j-common-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:218) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:180) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.newDatabaseManagementService(DatabaseManagementServiceBuilder.java:101) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at org.neo4j.dbms.api.DatabaseManagementServiceBuilder.build(DatabaseManagementServiceBuilder.java:94) [org.neo4j-neo4j-4.4.46.jar:4.4.46]
+	at com.buschmais.xo.neo4j.embedded.api.FileDatabaseManagementServiceFactory.getDatabaseManagementService(FileDatabaseManagementServiceFactory.java:20) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.AbstractEmbeddedDatabaseManagementServiceFactory.createDatabaseManagementService(AbstractEmbeddedDatabaseManagementServiceFactory.java:44) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.neo4j.embedded.api.EmbeddedNeo4jXOProvider.createDatastore(EmbeddedNeo4jXOProvider.java:52) [com.buschmais.xo-xo.neo4j.embedded-2.6.6.jar:?]
+	at com.buschmais.xo.impl.XOManagerFactoryImpl.<init>(XOManagerFactoryImpl.java:48) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.impl.bootstrap.XOBootstrapServiceImpl.createXOManagerFactory(XOBootstrapServiceImpl.java:41) [com.buschmais.xo-xo.impl-2.6.6.jar:?]
+	at com.buschmais.xo.api.bootstrap.XO.createXOManagerFactory(XO.java:50) [com.buschmais.xo-xo.api-2.6.6.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.getXOManagerFactory(AbstractGraphStore.java:308) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.core.store.impl.AbstractGraphStore.start(AbstractGraphStore.java:74) [com.buschmais.jqassistant.core-store-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.AbstractStoreTask.withStore(AbstractStoreTask.java:49) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.task.ScanTask.run(ScanTask.java:53) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTask(Main.java:326) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.executeTasks(Main.java:284) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.interpretCommandLine(Main.java:204) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.run(Main.java:83) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+	at com.buschmais.jqassistant.commandline.Main.main(Main.java:64) [com.buschmais.jqassistant.cli-application-2.9.1.jar:?]
+2026-03-21 22:07:34.997+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [neo4j/07317455] Schema index cleanup job registered: descriptor=Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j\neostore.labelscanstore.db
+2026-03-21 22:07:34.997+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [neo4j/07317455] Schema index cleanup job started: descriptor=Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j\neostore.labelscanstore.db
+2026-03-21 22:07:34.998+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [neo4j/07317455] Schema index cleanup job finished: descriptor=Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j\neostore.labelscanstore.db Number of pages visited: 2, Number of tree nodes: 1, Number of cleaned crashed pointers: 0, Time spent: 1ms
+2026-03-21 22:07:34.998+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [neo4j/07317455] Schema index cleanup job closed: descriptor=Index( id=1, name='index_343aff4e', type='TOKEN LOOKUP', schema=(:<any-labels>), indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j\neostore.labelscanstore.db
+2026-03-21 22:07:35.004+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [neo4j/07317455] Schema index cleanup job registered: descriptor=Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j\neostore.relationshiptypescanstore.db
+2026-03-21 22:07:35.004+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [neo4j/07317455] Schema index cleanup job started: descriptor=Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j\neostore.relationshiptypescanstore.db
+2026-03-21 22:07:35.021+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [neo4j/07317455] Schema index cleanup job finished: descriptor=Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j\neostore.relationshiptypescanstore.db Number of pages visited: 2, Number of tree nodes: 1, Number of cleaned crashed pointers: 0, Time spent: 17ms
+2026-03-21 22:07:35.022+0000 INFO  [o.n.k.i.i.s.TokenIndexProvider] [neo4j/07317455] Schema index cleanup job closed: descriptor=Index( id=2, name='index_f7700477', type='TOKEN LOOKUP', schema=-[:<any-types>]-, indexProvider='token-lookup-1.0' ), indexFile=C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\databases\neo4j\neostore.relationshiptypescanstore.db
+2026-03-21 22:07:35.022+0000 INFO  [o.n.k.i.a.i.IndexingService] [neo4j/07317455] IndexingService.init: indexes not specifically mentioned above are ONLINE
+2026-03-21 22:07:35.030+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] Requirement `Database unavailable` makes database neo4j unavailable.
+2026-03-21 22:07:35.030+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] DatabaseId{07317455[neo4j]} is unavailable.
+2026-03-21 22:07:35.033+0000 INFO  [o.n.k.d.Database] [neo4j/07317455] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\neo4j\neostore.transaction.db.0] at version=0
+2026-03-21 22:07:35.035+0000 INFO  [o.n.k.d.Database] [neo4j/07317455] Starting transaction log [C:\Users\mcayd\Downloads\checkstyle-checkstyle-13.2.0\checkstyle-checkstyle-13.2.0\jqassistant\store\data\transactions\neo4j\checkpoint.0] at version=0
+2026-03-21 22:07:35.036+0000 INFO  [o.n.k.i.a.i.IndexingService] [neo4j/07317455] IndexingService.start: indexes not specifically mentioned above are ONLINE
+2026-03-21 22:07:35.036+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] Fulfilling of requirement 'Database unavailable' makes database neo4j available.
+2026-03-21 22:07:35.036+0000 INFO  [o.n.k.a.DatabaseAvailabilityGuard] [neo4j/07317455] DatabaseId{07317455[neo4j]} is ready.
+2026-03-21 22:07:35.036+0000 INFO  [o.n.m.DatabaseHealth] [neo4j/07317455] Database health set to OK
+2026-03-21 22:07:35.039+0000 INFO  [o.n.g.f.DatabaseManagementServiceFactory] id: E2C8C4A216F9ED999BE55405477DC9559048C5E52D425FC987A11061330F259A
+2026-03-21 22:07:35.039+0000 INFO  [o.n.g.f.DatabaseManagementServiceFactory] name: system
+2026-03-21 22:07:35.040+0000 INFO  [o.n.g.f.DatabaseManagementServiceFactory] creationDate: 2026-03-21T21:49:09.979Z

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+        "-//Checkstyle//DTD SuppressionFilter Configuration 1.1//EN"
+        "https://checkstyle.org/dtds/suppressions_1_1.dtd">
+
+<suppressions>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]imports[\\/]redundantimport[\\/]InputRedundantImportWithoutPackage.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]coding[\\/]illegaltype[\\/]InputIllegalTypeSameFileNameFalsePositive.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]coding[\\/]illegaltype[\\/]InputIllegalTypeTestSameFileNameGeneral.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]metrics[\\/]classfanoutcomplexity[\\/]InputClassFanOutComplexityExcludedPackagesAllIgnored.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]metrics[\\/]classfanoutcomplexity[\\/]InputClassFanOutComplexityExcludedPackagesCommonPackage.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]metrics[\\/]classfanoutcomplexity[\\/]InputClassFanOutComplexityExcludedPackagesDirectPackages.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]imports[\\/]customimportorder[\\/]InputCustomImportOrderThirdPartyAndSpecial.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]imports[\\/]customimportorder[\\/]InputCustomImportOrderThirdPartyAndSpecial2.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]imports[\\/]customimportorder[\\/]InputCustomImportOrderDefault4.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]imports[\\/]customimportorder[\\/]InputCustomImportOrderDefault6.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]imports[\\/]customimportorder[\\/]InputCustomImportOrderSingleLine.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]imports[\\/]customimportorder[\\/]InputCustomImportOrderSingleLineList.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]imports[\\/]customimportorder[\\/]InputCustomImportOrderSpanMultipleLines.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]imports[\\/]customimportorder[\\/]InputCustomImportOrder_OverlappingPatterns.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]imports[\\/]unusedimports[\\/]InputUnusedImportsShadowed.java"/>
+  <suppress id="noCheckstyleInInputs"
+            files="[\\/]checks[\\/]imports[\\/]redundantimport[\\/]InputRedundantImportWithChecker.java"/>
+  <suppress id="noCheckstyleInInputs"
+          files="[\\/]packageobjectfactory[\\/]bar[\\/]FooCheck.java"/>
+  <suppress id="noCheckstyleInInputs"
+          files="[\\/]packageobjectfactory[\\/]foo[\\/]FooCheck.java"/>
+  <suppress id="noCheckstyleInInputs"
+          files="[\\/]packageobjectfactory[\\/]foo[\\/]FooCheck.java"/>
+  <suppress id="noCheckstyleInInputs"
+          files="[\\/]packageobjectfactory[\\/]abc[\\/]FooCheck.java"/>
+  <suppress id="noCheckstyleInInputs"
+          files="[\\/]packageobjectfactory[\\/]zoo[\\/]FooCheck.java"/>
+</suppressions>
