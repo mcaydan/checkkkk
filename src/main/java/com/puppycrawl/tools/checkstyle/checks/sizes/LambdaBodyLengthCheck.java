@@ -23,7 +23,7 @@ import com.puppycrawl.tools.checkstyle.StatelessCheck;
 import com.puppycrawl.tools.checkstyle.api.AbstractCheck;
 import com.puppycrawl.tools.checkstyle.api.DetailAST;
 import com.puppycrawl.tools.checkstyle.api.TokenTypes;
-import com.puppycrawl.tools.checkstyle.architecture.metricsize.adapter.out.CheckstyleCheckExecutionAdapter;
+import com.puppycrawl.tools.checkstyle.architecture.metricsize.adapter.CheckstyleCheckExecutionAdapter;
 import com.puppycrawl.tools.checkstyle.architecture.metricsize.domain.MetricSizeCheckService;
 
 /**
@@ -85,7 +85,7 @@ public class LambdaBodyLengthCheck extends AbstractCheck {
     }
     @Override
     public void beginTree(DetailAST rootAST) {
-        metricService.run();
+        metricService.executeMetricOrSizeCheck();
     }
 
 

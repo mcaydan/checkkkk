@@ -1,21 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////////////////////
-// checkstyle: Checks Java source code and other text files for adherence to a set of rules.
-// Copyright (C) 2001-2026 the original author or authors.
-//
-// This library is free software; you can redistribute it and/or
-// modify it under the terms of the GNU Lesser General Public
-// License as published by the Free Software Foundation; either
-// version 2.1 of the License, or (at your option) any later version.
-//
-// This library is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-// Lesser General Public License for more details.
-//
-// You should have received a copy of the GNU Lesser General Public
-// License along with this library; if not, write to the Free Software
-// Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-///////////////////////////////////////////////////////////////////////////////////////////////
 
 package com.puppycrawl.tools.checkstyle.checks.metrics;
 
@@ -26,36 +8,11 @@ import com.puppycrawl.tools.checkstyle.FileStatefulCheck;
 import com.puppycrawl.tools.checkstyle.api.AbstractCheck;
 import com.puppycrawl.tools.checkstyle.api.DetailAST;
 import com.puppycrawl.tools.checkstyle.api.TokenTypes;
-import com.puppycrawl.tools.checkstyle.architecture.metricsize.adapter.out.CheckstyleCheckExecutionAdapter;
+import com.puppycrawl.tools.checkstyle.architecture.metricsize.adapter.CheckstyleCheckExecutionAdapter;
 import com.puppycrawl.tools.checkstyle.architecture.metricsize.domain.MetricSizeCheckService;
 import com.puppycrawl.tools.checkstyle.utils.CheckUtil;
 
-/**
- * <div>
- * Restricts the number of boolean operators ({@code &amp;&amp;}, {@code ||},
- * {@code &amp;}, {@code |} and {@code ^}) in an expression.
- * </div>
- *
- * <p>
- * Rationale: Too many conditions leads to code that is difficult to read
- * and hence debug and maintain.
- * </p>
- *
- * <p>
- * Note that the operators {@code &amp;} and {@code |} are not only integer bitwise
- * operators, they are also the
- * <a href="https://docs.oracle.com/javase/specs/jls/se11/html/jls-15.html#jls-15.22.2">
- * non-shortcut versions</a> of the boolean operators {@code &amp;&amp;} and {@code ||}.
- * </p>
- *
- * <p>
- * Note that {@code &amp;}, {@code |} and {@code ^} are not checked if they are part
- * of constructor or method call because they can be applied to non-boolean
- * variables and Checkstyle does not know types of methods from different classes.
- * </p>
- *
- * @since 3.4
- */
+
 @FileStatefulCheck
 public final class BooleanExpressionComplexityCheck extends AbstractCheck {
 
@@ -135,7 +92,7 @@ public final class BooleanExpressionComplexityCheck extends AbstractCheck {
     }
     @Override
     public void beginTree(DetailAST rootAST) {
-        metricService.run();
+        metricService.executeMetricOrSizeCheck();
     }
 
 

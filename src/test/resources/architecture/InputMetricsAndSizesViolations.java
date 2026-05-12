@@ -1,12 +1,16 @@
 public class InputMetricsAndSizesViolations {
-    private Object a;
-    private String b;
-    private Integer c;
-    private Double d;
-    private Long e;
-    private Float f;
 
-    public void veryLongMethod(int a, int b, int c, int d, int e, int f, int g, int h) {
+    private Object dependency1;
+    private String dependency2;
+    private Integer dependency3;
+    private Double dependency4;
+    private Long dependency5;
+    private Float dependency6;
+
+    public void veryLongMethod(
+            int a, int b, int c, int d,
+            int e, int f, int g, int h, int i) {
+
         int x = 0;
         x++;
         x++;
@@ -18,6 +22,7 @@ public class InputMetricsAndSizesViolations {
         x++;
         x++;
         x++;
+
         if (a > 0 && b > 0 && c > 0 && d > 0 && e > 0 && f > 0) {
             x++;
         }
@@ -31,9 +36,10 @@ public class InputMetricsAndSizesViolations {
             x++;
         }
 
-        Runnable r = new Runnable() {
+        Runnable anonymousRunnable = new Runnable() {
             public void run() {
                 int y = 0;
+                y++;
                 y++;
                 y++;
                 y++;
@@ -42,22 +48,54 @@ public class InputMetricsAndSizesViolations {
             }
         };
 
-        Runnable lambda = () -> {
+        Runnable longLambda = () -> {
             int z = 0;
             z++;
             z++;
             z++;
             z++;
             z++;
+            z++;
         };
+
+        anonymousRunnable.run();
+        longLambda.run();
     }
 
-    public void m1() {}
-    public void m2() {}
-    public void m3() {}
-    public void m4() {}
-    public void m5() {}
+    public void complexDecisionMethod(int a, int b, int c) {
 
-    class Inner1 {}
-    class Inner2 {}
+        if (a > 0) {
+            if (b > 0) {
+                if (c > 0) {
+                    System.out.println("A");
+                }
+                else {
+                    System.out.println("B");
+                }
+            }
+            else if (b < 0) {
+                System.out.println("C");
+            }
+            else {
+                System.out.println("D");
+            }
+        }
+        else {
+            System.out.println("E");
+        }
+    }
+
+    public void methodOne() {}
+
+    public void methodTwo() {}
+
+    public void methodThree() {}
+
+    public void methodFour() {}
+
+    public void methodFive() {}
+
+    class InnerTypeOne {}
+
+    class InnerTypeTwo {}
 }

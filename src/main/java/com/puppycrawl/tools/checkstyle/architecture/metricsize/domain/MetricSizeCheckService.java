@@ -1,9 +1,8 @@
 package com.puppycrawl.tools.checkstyle.architecture.metricsize.domain;
 
-import com.puppycrawl.tools.checkstyle.architecture.metricsize.port.in.RunMetricSizeCheckUseCase;
-import com.puppycrawl.tools.checkstyle.architecture.metricsize.port.out.CheckExecutionPort;
+import com.puppycrawl.tools.checkstyle.architecture.metricsize.port.CheckExecutionPort;
 
-public class MetricSizeCheckService implements RunMetricSizeCheckUseCase {
+public class MetricSizeCheckService {
 
     private final CheckExecutionPort checkExecutionPort;
 
@@ -11,8 +10,15 @@ public class MetricSizeCheckService implements RunMetricSizeCheckUseCase {
         this.checkExecutionPort = checkExecutionPort;
     }
 
-    @Override
-    public void run() {
-        checkExecutionPort.execute();
+    public void executeMetricOrSizeCheck() {
+        validateExecutionPort();
+        checkExecutionPort.executeCheck();
+    }
+
+    private void validateExecutionPort() {
+        if (checkExecutionPort == null) {
+            throw new IllegalStateException(
+                    "Metric/Size check execution port must not be null.");
+        }
     }
 }

@@ -38,7 +38,7 @@ import com.puppycrawl.tools.checkstyle.api.AbstractCheck;
 import com.puppycrawl.tools.checkstyle.api.DetailAST;
 import com.puppycrawl.tools.checkstyle.api.FullIdent;
 import com.puppycrawl.tools.checkstyle.api.TokenTypes;
-import com.puppycrawl.tools.checkstyle.architecture.metricsize.adapter.out.CheckstyleCheckExecutionAdapter;
+import com.puppycrawl.tools.checkstyle.architecture.metricsize.adapter.CheckstyleCheckExecutionAdapter;
 import com.puppycrawl.tools.checkstyle.architecture.metricsize.domain.MetricSizeCheckService;
 import com.puppycrawl.tools.checkstyle.utils.CommonUtil;
 import com.puppycrawl.tools.checkstyle.utils.TokenUtil;
@@ -145,7 +145,7 @@ public abstract class AbstractClassCouplingCheck extends AbstractCheck {
 
     @Override
     public final void beginTree(DetailAST ast) {
-        metricService.run();
+        metricService.executeMetricOrSizeCheck();
         importedClassPackages.clear();
         classesContexts.clear();
         classesContexts.push(new ClassContext("", null));
